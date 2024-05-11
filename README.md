@@ -58,7 +58,7 @@
 
         /* Style the footer */
         footer {
-            background-color: #333;
+            background-color: #ff0000;
             color: #fff;
             padding: 20px;
             text-align: center;
@@ -72,6 +72,7 @@
 
     <div class="container">
         <h2>IG @ polo Don</h2>
+        <h3>Disclaimer</h3>
         <p>Be careful of what you send on this account.if you are hacked, don't blame anyone.Assaults will not be taken lightly.No one is safe🤬</p>
     </div>
 
