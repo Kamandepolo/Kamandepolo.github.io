@@ -1,6 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Live Wallpaper</title>
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      height: 100%;
+    }
+    canvas {
+      display: block;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+    }
+  </style>
+</head>
+<body>
+  <canvas id="canvas"></canvas>
+  <script>
+    const canvas = document.getElementById('canvas');
+    const ctx = canvas.getContext('2d');
+
+    // Set canvas size to window size
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+
+    // Tree settings
+    const treeColor = '#0F6';
+    const branches = 8;
+    const branchLength = 60;
+
+    // Recursive function to draw branches
+    function drawBranch(x, y, length, angle, depth) {
+      if (depth === 0) return;
+      
+      const endX = x + Math.cos(angle) * length;
+      const endY = y + Math.sin(angle) * length;
+
+      ctx.beginPath();
+      ctx.moveTo(x, y);
+      ctx.lineTo(endX, endY);
+      ctx.strokeStyle = treeColor;
+      ctx.lineWidth = depth * 1.5;
+      ctx.stroke();
+
+      // Recursive calls for branches
+      drawBranch(endX, endY, length * 0.7, angle - Math.PI / branches, depth - 1);
+      drawBranch(endX, endY, length * 0.7, angle + Math.PI / branches, depth - 1);
+    }
+
+    // Draw the tree
+    function drawTree() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      const startX = canvas.width / 2;
+      const startY = canvas.height;
+      drawBranch(startX, startY, branchLength, -Math.PI / 2, 8);
+    }
+
+    // Redraw tree on window resize
+    window.addEventListener('resize', () => {
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+      drawTree();
+    });
+
+    // Initial draw
+    drawTree();
+  </script>
+</body>
+</html>
+
+<!STARTl>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DON hacking classes</title>
