@@ -1,17 +1,49 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Live Wallpaper</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <div class="background"></div>
-    <div class="objects-container"></div>
-    <script src="script.js"></script>
-</body>
-</html>
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('background.jpg'); /* Replace 'background.jpg' with your image path */
+    background-size: cover;
+    z-index: -1;
+}
+
+.objects-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.object {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #ffffff; /* Change the color of the objects */
+    border-radius: 50%; /* Make the objects round */
+    animation: moveObject 5s infinite linear; /* Define the animation */
+}
+
+@keyframes moveObject {
+    0% {
+        transform: translate(0, 0);
+    }
+    50% {
+        transform: translate(100vw, 100vh); /* Move the objects diagonally */
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
 
 <!STARTl>
 <html lang="en">
