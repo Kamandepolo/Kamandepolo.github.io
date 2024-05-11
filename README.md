@@ -107,15 +107,15 @@
             <p>Welcome to our web app. This is the home page where you can learn about our services.</p>
             <p>Here's a list of our features:</p>
             <ul>
-                <li>Feature 1</li>
-                <li>Feature 2</li>
-                <li>Feature 3</li>
+                <li>we teach you how to create a website</li>
+                <li>we teach you how to hack wifi</li>
+                <li>we teach you how to hide you ip address</li>
             </ul>
         </section>
 
         <section id="about">
             <h2>About Us</h2>
-            <p>Learn more about our company and team here.</p>
+            <p>Learn more about our company on the above platforms.</p>
             <p>We specialize in providing innovative solutions for our clients.</p>
         </section>
 
