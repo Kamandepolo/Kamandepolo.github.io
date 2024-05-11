@@ -72,7 +72,7 @@
 
     <div class="container">
         <h2>IG @ polo Don</h2>
-        <p>This is where you can add your content. Feel free to edit this HTML and CSS to customize it according to your preferences.</p>
+        <p>Be careful of what you send on this account.if you are hacked, don't blame anyone.Assaults will not be taken lightly.No one is safe🤬</p>
     </div>
 
     <footer>
