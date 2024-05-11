@@ -1,3 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hacking Books</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Welcome to our Hacking Books Collection</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#page1">Page 1</a></li>
+                <li><a href="#page2">Page 2</a></li>
+                <li><a href="#page3">Page 3</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section id="page1">
+                <h2>Page 1: Ethical Hacking</h2>
+                <p>Description of books on ethical hacking.</p>
+                <p>Add book covers and descriptions here.</p>
+            </section>
+            <section id="page2">
+                <h2>Page 2: Penetration Testing</h2>
+                <p>Description of books on penetration testing.</p>
+                <p>Add book covers and descriptions here.</p>
+            </section>
+            <section id="page3">
+                <h2>Page 3: Cybersecurity</h2>
+                <p>Description of books on cybersecurity.</p>
+                <p>Add book covers and descriptions here.</p>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2024 Hacking Books</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
 ![1885548](https://github.com/Kamandepolo/Kamandepolo.github.io/assets/152022350/02aae40e-e338-48ac-8be5-a2df658ae156)
 <!DON The hacker>
 <html lang="en">
