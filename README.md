@@ -1,5 +1,53 @@
 ![1885548](https://github.com/Kamandepolo/Kamandepolo.github.io/assets/152022350/02aae40e-e338-48ac-8be5-a2df658ae156)
-(matrix_rain_codes_4k_full_hd_h264_32520 (2))
+HTML CSS Result Skip Results Iframe
+<css-doodle><style>
+  --color: #51eaea, #fffde1, #ff9d76, #FB3569;
+
+  @grid: 30x1 / 100vw 100vh / #270f34; 
+  
+  :container {
+    perspective: 30vmin;
+    --deg: @p(-180deg, 180deg);
+  }
+  
+  :after, :before {
+    content: '';
+    background: @p(--color); 
+    @place: @r(100%) @r(100%);
+    @size: @r(6px);
+    @shape: heart;
+  }
+
+  @place: center;
+  @size: 18vmin; 
+
+  box-shadow: @m2(0 0 50px @p(--color));
+  background: @m100(
+    radial-gradient(@p(--color) 50%, transparent 0) 
+    @r(-20%, 120%) @r(-20%, 100%) / 1px 1px
+    no-repeat
+  );
+
+  will-change: transform, opacity;
+  animation: scale-up 12s linear infinite;
+  animation-delay: calc(-12s / @I * @i);
+
+  @keyframes scale-up {
+    0%, 95.01%, 100% {
+      transform: translateZ(0) rotate(0);
+      opacity: 0;
+    }
+    10% { 
+      opacity: 1; 
+    }
+    95% {
+      transform: 
+        translateZ(35vmin) rotateZ(var(--deg));
+    }
+  }
+</style></css-doodle>
+
+Resources
 <!DON The hacker>
 <html lang="en">
 <head>
