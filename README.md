@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=3.0">
 <title>Green Background</title>
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -43,12 +43,12 @@
             <section id="page2">
                 <h2>Page 2: Penetration Testing</h2>
                 <p>Description of books on penetration testing.</p>
-                <p>Add book covers and descriptions here.</p>
+                <p>book by paige.</p>
             </section>
             <section id="page3">
                 <h2>Page 3: Cybersecurity</h2>
-                <p>Description of books on cybersecurity.</p>
-                <p>Add book covers and descriptions here.</p>
+                <p>book by Don and Jimmy fun.</p>
+                <p>book by Don.</p>
             </section>
         </main>
         <footer>
@@ -181,7 +181,7 @@
         </section>
 
         <section id="contact">
-            <h2>Contact Us</h2>
+            <h2>Contact Us on the provided email</h2>
             <p>Have questions or feedback? Contact us using the form below.</p>
             <form id="contactForm">
                 <label for="name">Name:</label>
