@@ -9,7 +9,7 @@
 <body>
 <div class="container">
   <h1>Welcome to My Website</h1>
-  <p>This is some sample content.</p>
+  <p>This is real content.</p>
 </div>
 </body>
 </html>
