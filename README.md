@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="background"></div>
-    <div class="objects"></div>
+    <div class="objects-container"></div>
     <script src="script.js"></script>
 </body>
 </html>
