@@ -1,8 +1,4 @@
 
-
-https://github.com/Kamandepolo/Kamandepolo.github.io/assets/152022350/f20e4576-a1fc-45f8-8537-bee790e5723f
-
-
 <color>
 <html lang="en">
 <head>
