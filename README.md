@@ -2,8 +2,6 @@
 <color>
 <html lang="en">
 <head>
-     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2951245389152790"
-     crossorigin="anonymous"></script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=3.0">
 <title>Always use specific sites to search</title>
@@ -12,6 +10,8 @@
 <div class="container">
   <h1>Welcome to My Website</h1>
   <p>This is real content.</p>
+     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2951245389152790"
+     crossorigin="anonymous"></script>
 </div>
 </body>
 </html>
