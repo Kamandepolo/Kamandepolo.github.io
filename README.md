@@ -1,12 +1,13 @@
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2951245389152790"
-     crossorigin="anonymous"></script>
+
 <color>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=3.0">
 <title>Always use specific sites to search</title>
-<link rel="stylesheet" href="styles.css">
+
+<link rel="styl<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2951245389152790"
+     crossorigin="anonymous"></script>esheet" href="styles.css">
 </head>
 <body>
 <div class="container">
