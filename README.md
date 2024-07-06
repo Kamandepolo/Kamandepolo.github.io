@@ -1,4 +1,6 @@
-google.com, pub-2951245389152790, DIRECT, f08c47fec0942fa0
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2951245389152790"
+     crossorigin="anonymous"></script>
+
 <color>
 <html lang="en">
 <head>
