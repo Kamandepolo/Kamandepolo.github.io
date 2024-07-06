@@ -1,4 +1,4 @@
-
+google.com, pub-2951245389152790, DIRECT, f08c47fec0942fa0
 <color>
 <html lang="en">
 <head>
